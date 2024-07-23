@@ -8,34 +8,32 @@
   <meta property="og:site_name" content="Starbucks"/>
   <meta property="og:title" content="Starbucks Coffee Korea"/>
   <meta property="og:discription" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로서 총 23,187개의 매장을 운영하고 있습니다."/>
-  <meta property="og:image" content="./images/starbucks_seo.jpg"/>
+  <meta property="og:image" content="../images/starbucks_seo.jpg"/>
   <meta property="og:url" content="http://starbucks.co.kr"/>
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:site" content="Starbucks"/>
   <meta property="twitter:title" content="Starbucks Coffee Korea"/>
-  <meta property="twitter:discription" content="./images/starbucks_seo.jpg"/>
+  <meta property="twitter:discription" content="../images/starbucks_seo.jpg"/>
   <meta property="twitter:url" content="http://starbucks.co.kr"/>
   <title>Starbucks Korea</title>
   <!-- favicon -->
-  <link rel="icon" href="./favicon.png">
+  <link rel="icon" href="../favicon.png">
   <!-- reset cdn -->
   <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
   <!-- google icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-  <!-- gsap cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
   <!-- user  -->
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <script defer src="./js/common.js"></script>
-  <script defer src="./js/custom.js"></script>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/signin.css">
+  <script defer src="../js/custom.js"></script>
 </head>
 <body>
   <header>
     <div class="inner">
       <a href="javascript:void(0);" class="logo">
-        <img src="./images/starbucks_logo.png" alt="STARBUCKS">
+        <img src="../images/starbucks_logo.png" alt="STARBUCKS">
       </a>
       <div class="sub-menu">
         <ul class="menu">
@@ -359,17 +357,26 @@
         </li>
       </ul>
     </div>
-      <!-- badge -->
-      <div class="badges">
-            <div class="badge">
-              <img src="./images/badge1.jpg" alt="">
-            </div>
-            <div class="badge">
-              <img src="./images/badge2.jpg" alt="">
-            </div>
-      </div>
   </header>
-
+  <section class="signin">
+    <h1>로그인</h1>
+    <div class="signin__card">
+      <h2><strong>Welcome!</strong>스타벅스에 오신것을 환영합니다.</h2>
+      <form>
+        <input type="text" placeholder="아이디를 입력하세요."/>
+        <input type="password" placeholder="비밀번호를 입력하세요."/>
+        <input type="submit" value="로그인" />
+        <p>
+          * 비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니, <br/> 정기적으로 비밀번호를 변경해주세요.
+        </p>
+      </form>
+      <div class="actions">
+        <a href="javscript:void(0)">회원가입</a>
+        <a href="javscript:void(0)">아이디 찾기</a>
+        <a href="javscript:void(0)">비밀번호 찾기</a>
+      </div>
+    </div>
+  </section>
   <footer>
     <div class="inner">
       <ul class="menu">
@@ -405,7 +412,7 @@
       </div>
       <div class="copyright">
         <p>&copy;<span class="this-year">2023</span> Starbucks Coffee Company, All Right reserved.
-          <img src="./images/starbucks_logo_only_text.png" alt="">
+          <img src="../images/starbucks_logo_only_text.png" alt="">
         </p>
       </div>
     </div>
